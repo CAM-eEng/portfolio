@@ -136,7 +136,7 @@
     }
     startclock = function(){
         var time = new Date();
-        var t = time.toLocaleTimeString();
+        var t = time.toTimeString();
        $('#clock').text(t);
     }
     setInterval(startclock,60);
