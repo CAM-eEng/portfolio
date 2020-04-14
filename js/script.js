@@ -136,9 +136,8 @@
     }
     startclock = function(){
         var time = new Date();
-        var h = time.getHours(); // 0-24 format
-        var m = time.getMinutes();
-       $('#clock').text(`${h}:${m}`);
+        var t = time.toLocaleTimeString();
+       $('#clock').text(t);
     }
     setInterval(startclock,60);
 })(jQuery);
