@@ -15,12 +15,13 @@ body {
     font-weight: 300;
 }
 .header {
-    color: rgb(255,255,0);
+    color: rgb(0,0,0);
 }
 h1 {
     font-weight: 300;
-    font-family: 'Fredericka the Great', cursive;
-    text-transform: uppercase;
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-family: 'Cormorant Infant', serif;
+    /* text-transform: uppercase; */
 }
 h2 {
     font-weight: 300;
