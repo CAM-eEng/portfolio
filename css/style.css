@@ -1,5 +1,5 @@
 body {
-    background-image: url("../img/Mars_Valles_Marineris.jpeg.jpeg");
+    background-image: url("../img/Mars_Valles_Marineris.jpeg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
