@@ -30,6 +30,9 @@ h2 {
 .profile-picture {
     border-radius: 5px;
     box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .plane {
     font-size: 20px;
