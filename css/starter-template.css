@@ -1,0 +1,38 @@
+body {
+  padding-top: 50px;
+  background-image: url("../img/Mars_Valles_Marineris.jpeg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.header {
+  color: rgb(0,0,0);
+}
+.para {
+  padding: 40px 15px;
+  text-align: center;
+}
+.para h1 {
+  font-weight: 300;
+  font-family: 'Cormorant Infant', serif;
+}
+.profile-picture {
+  border-radius: 5px;
+  box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

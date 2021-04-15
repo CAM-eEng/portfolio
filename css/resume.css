@@ -11,25 +11,51 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: 300;
 }
 .header {
+    padding-top: 4rem;
     color: rgb(0,0,0);
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 h1 {
-    font-weight: 300;
-    /* font-family: 'Fredericka the Great', cursive; */
-    font-family: 'Cormorant Infant', serif;
-    /* text-transform: uppercase; */
+    font-family: 'Courier New', Courier, monospace;
 }
 h2 {
     font-weight: 300;
-    text-transform: uppercase;
+
 }
+.empty-space {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90vw;
+    height: 10vh;
+}
+.paragraph {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90vw;
+}
+.para-title {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.para-body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+
+}
+
 .profile-picture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
     border-radius: 5px;
     box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.1);
 }
