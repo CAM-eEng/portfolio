@@ -1,0 +1,118 @@
+body {
+    background-image: url("../img/cloud2.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  .starter-template {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .header {
+    color: rgb(0,0,0);
+  }
+  .para {
+    padding: 40px 15px;
+    text-align: center;
+  }
+  .para h1 {
+    font-weight: 300;
+    font-family: 'Cormorant Infant', serif;
+  }
+  .profile-picture {
+    border-radius: 5px;
+    box-shadow: 1px 0px 5px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-form {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: inherit;
+    font-size: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: whitesmoke;
+  }
+  .fs-frm fieldset,
+  .fs-frm input,
+  .fs-frm select,
+  .fs-frm textarea,
+  .fs-frm optgroup,
+  .fs-frm label,
+  .fs-frm card-element:disabled {
+    font-family: inherit;
+    font-size: 100%;
+    color: inherit;
+    border: none;
+    border-radius: 0;
+    display: block;
+    width: 50rem;
+    padding: 0;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  .fs-frm label,
+  .fs-frm legend,
+  .fs-frm ::placeholder {
+    font-size: 100%;
+    margin-bottom: .5rem;
+    padding-top: .2rem;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  /* border, padding, margin, width */
+  .fs-frm input,
+  .fs-frm select,
+  .fs-frm textarea,
+  .fs-frm card-element {
+    border: 1px solid rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,0.9);
+    padding: .75em 1rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+  }
+  .fs-frm input:focus,
+  .fs-frm select:focus,
+  .fs-frm textarea:focus {
+    background-color: white;
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: gray;
+    outline-offset: -1px;
+  }
+  .fs-frm [type="text"],
+  .fs-frm [type="email"] {
+    width: 100%;
+  }
+  .fs-frm [type="button"],
+  .fs-frm [type="submit"],
+  .fs-frm [type="reset"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+  }
+  .fs-frm [type="button"]:focus,
+  .fs-frm [type="submit"]:focus,
+  .fs-frm [type="reset"]:focus {
+    outline: none;
+  }
+  .fs-frm [type="submit"],
+  .fs-frm [type="reset"] {
+    margin-bottom: 0;
+  }
