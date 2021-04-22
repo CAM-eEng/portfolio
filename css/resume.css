@@ -14,6 +14,15 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.resume-container{
+    width: 70%;
+    height: 100%;
+    padding: 30px;
+}
 .header {
     color: rgb(0,0,0);
 }
